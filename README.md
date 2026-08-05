@@ -1,5 +1,7 @@
 # 🛤️ 路径模拟自检法（path-simulation）
 
+> Path Simulation — verify your skill / workflow / tutorial by walking real user paths, not just checking structure.
+
 > 写完/改完 skill、workflow、教程后，选一条真实用户指令**模拟执行**一遍，找出会卡住的地方。**静态检查信文档，路径模拟信执行。**
 
 ---
