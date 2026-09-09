@@ -1,7 +1,7 @@
 ---
 name: path-simulation
-description: "【路径模拟自检法】写完/改完 workflow、skill、教程后，选真实用户指令模拟执行找卡点。触发词：路径模拟、走一遍、simulate workflow。适用：可执行流程类内容（skill/workflow/教程步骤）；不适用：纯知识类内容。"
-version: 2.7.0
+description: "【路径模拟自检法】写完/改完 workflow、skill、教程、开发方案（plan）后，选真实用户指令模拟执行找卡点。触发词：路径模拟、走一遍、simulate workflow、验收方案。适用：可执行流程类内容（skill/workflow/教程/方案）；不适用：纯知识类内容。"
+version: 2.7.1
 author: 彬少
 platforms: [linux, macos, windows]
 metadata:
