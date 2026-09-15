@@ -1,4 +1,4 @@
-# 🛤️ 路径模拟自检法（path-simulation） ![版本](https://img.shields.io/badge/版本-v2.7.1-blue)
+# 🛤️ 路径模拟自检法（path-simulation） ![版本](https://img.shields.io/badge/版本-v2.7.3-blue)
 
 > Path Simulation — verify your skill / workflow / tutorial by walking real user paths, not just checking structure.
 
@@ -70,7 +70,7 @@
 | 4 | 中断路径 | 「等一下，先处理这个」 |
 | 5 | 反悔路径 | 「那条别删」「恢复刚才改的」 |
 | 6 | 异常路径 | 「文件不存在」「没装依赖」 |
-| 7 | 跨文件路径 | 检查参考文件之间是否矛盾 |
+| 7 | 跨文件路径 | 文件间判据配对对账（执行定义见 references/path-types.md） |
 
 ### 执行步骤（9 步：场景枚举 0 + 走查 1-8）
 
@@ -104,7 +104,7 @@
 
 ---
 
-## 常见坑（两类，别混——完整 7 坑清单见 `references/common-pitfalls.md`）
+## 常见坑（两类，别混——完整 9 坑清单见 `references/common-pitfalls.md`）
 
 ### 一、本方法能查出的流程 bug（被测对象里的问题）
 
@@ -173,7 +173,7 @@
 
 ## 参考文件
 
-- `references/path-types.md` — 7 条标准路径清单（选入口时查）
+- `references/path-types.md` — 8 条路径来源清单（选入口时查；含 #7 跨文件路径的判据配对执行定义）
 - `references/report-template.md` — 产出物报告模板（含严重度 + 走查轨迹）
 - `references/faq.md` — 常见问题（脑走查盲点、satisficing 停止点、人类 vs agent 怎么走）
 - `references/walkthrough.md` — 真实走查范例（主案例完整闭环 + 附加案例 user-owned 报告态）
