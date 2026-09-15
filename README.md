@@ -1,4 +1,4 @@
-# 🛤️ 路径模拟自检法（path-simulation） ![版本](https://img.shields.io/badge/版本-v2.7.3-blue)
+# 🛤️ 路径模拟自检法（path-simulation） ![版本](https://img.shields.io/badge/版本-v2.7.4-blue)
 
 > Path Simulation — verify your skill / workflow / tutorial by walking real user paths, not just checking structure.
 
