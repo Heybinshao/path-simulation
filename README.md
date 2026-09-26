@@ -1,4 +1,4 @@
-# 🛤️ 路径模拟自检法（path-simulation） ![版本](https://img.shields.io/badge/版本-v2.7.7-blue)
+# 🛤️ 路径模拟自检法（path-simulation） ![版本](https://img.shields.io/badge/版本-v2.7.8-blue)
 
 > Path Simulation — verify your skill / workflow / tutorial by walking real user paths, not just checking structure.
 
@@ -60,7 +60,7 @@
 >
 > 跳过/中断/反悔/分批本质都是「用户不按线性走」的同类扰动，只走它们会漏掉正交的高风险轴。**异常**（输入缺失/环境不满足）和**跨文件**（文件间矛盾）才是真正容易爆的两条轴。
 
-### 7 条标准路径
+### 标准路径清单
 
 | # | 路径 | 典型用户话术 |
 |---|------|-------------|
@@ -173,7 +173,7 @@
 
 ## 参考文件
 
-- `references/path-types.md` — 8 条路径来源清单（选入口时查；含 #7 跨文件路径的判据配对执行定义）
+- `references/path-types.md` — 路径来源清单（标准路径 + 会话回放法；选入口时查；含 #7 跨文件路径的判据配对执行定义。条数以该文件实际表格为准）
 - `references/report-template.md` — 产出物报告模板（含严重度 + 走查轨迹）
 - `references/faq.md` — 常见问题（脑走查盲点、satisficing 停止点、人类 vs agent 怎么走）
 - `references/walkthrough.md` — 真实走查范例（主案例完整闭环 + 附加案例 user-owned 报告态）

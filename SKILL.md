@@ -1,7 +1,7 @@
 ---
 name: path-simulation
 description: "【路径模拟】写完 workflow/skill/方案后找卡点。走一遍"
-version: 2.7.7
+version: 2.7.8
 license: MIT
 author: 彬少
 platforms: [linux, macos, windows]
@@ -157,11 +157,11 @@ metadata:
 
 ## 参考文件
 
-- `references/path-types.md` — 8 条路径来源清单（经典 7 条用户指令路径 + 会话回放法，选入口时查；**含 #7 跨文件路径的执行定义**）
+- `references/path-types.md` — 路径来源清单（用户指令经典路径 + 会话回放法，选入口时查；**含 #7 跨文件路径的执行定义**。条数以该文件实际表格为准，此处不复写）
 - `references/report-template.md` — 产出物报告模板（输出时查）
 - `references/faq.md` — 常见问题（卡住时查）
 - `references/walkthrough.md` — 真实走查范例（一条完整 3 路径走查长啥样，起步时查）
-- `references/common-pitfalls.md` — 实测坑沉淀（现 9 坑：多轮修订脱节、方案边界画小、报告快照过期、并发会话抢改、模拟器断言未复核、正则初报当结论、修复授权以轮次为单位、机械匹配对缩略语、增量豁免跨文件必走；测 plan/方案类文档前先读）
+- `references/common-pitfalls.md` — 实测坑沉淀（多轮修订脱节、方案边界画小、报告快照过期、并发会话抢改、模拟器断言未复核、正则初报当结论、修复授权以轮次为单位、机械匹配对缩略语、增量豁免跨文件必走、**指路语里的写死计数必然漂**；**条数与坑目以该文件实际小节为准，此处不复写**；测 plan/方案类文档前先读）
 
 ## 和「自检清单」的关系
 
