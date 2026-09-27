@@ -1,4 +1,4 @@
-# 🛤️ 路径模拟自检法（path-simulation） ![版本](https://img.shields.io/badge/版本-v2.7.8-blue)
+# 🛤️ 路径模拟自检法（path-simulation） ![版本](https://img.shields.io/badge/版本-v2.7.9-blue)
 
 > Path Simulation — verify your skill / workflow / tutorial by walking real user paths, not just checking structure.
 
@@ -104,7 +104,7 @@
 
 ---
 
-## 常见坑（两类，别混——完整 9 坑清单见 `references/common-pitfalls.md`）
+## 常见坑（两类，别混——完整坑清单见 `references/common-pitfalls.md`）
 
 ### 一、本方法能查出的流程 bug（被测对象里的问题）
 
