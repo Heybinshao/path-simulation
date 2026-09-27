@@ -1,4 +1,4 @@
-# 🛤️ 路径模拟自检法（path-simulation） ![版本](https://img.shields.io/badge/版本-v2.7.9-blue)
+# 🛤️ 路径模拟自检法（path-simulation） ![版本](https://img.shields.io/badge/版本-v2.7.10-blue)
 
 > Path Simulation — verify your skill / workflow / tutorial by walking real user paths, not just checking structure.
 
@@ -145,6 +145,16 @@
 三问后仍要 workflow → 继续路径模拟；不要 → 记录「方法论不匹配」为独立审查项，回到定位重新设计。
 
 ---
+
+## 与姊妹 skill 的关系
+
+四个 skill 是一套（[skill-acceptance](https://github.com/Heybinshao/skill-acceptance) 是编排器，唯一入口）：
+
+| 关系 | 细节 |
+|---|---|
+| **独立可用** | 本 skill 不消费任何其他 skill，装上就能直接用 |
+| **被 `skill-acceptance` 消费** | 编排器的 Phase 2（场景枚举=本 skill 步骤 0）与 Phase 3（路径模拟=步骤 1 至末尾）按**引用步骤号**指向本仓，不复制方法论——所以本仓版本更新，编排器自动跟随 |
+| **与 `skill-acceptance-report-schema` 共口径不同版式** | 本仓的 `references/report-template.md` 是**单目标流程走查**模板（走查轨迹 + 修复记录为主）；report-schema 是**验收报告**模板（双层四区，含覆盖+体量账与证据区）。两者**各自权威、不互相同步**，真正共用的只有**严重度带色**（🔴/🟡/🟢）这一条。走查用本仓模板，验收报告用 report-schema |
 
 ## 适合 / 不适合
 
