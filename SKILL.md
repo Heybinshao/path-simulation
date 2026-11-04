@@ -2,7 +2,7 @@
 name: path-simulation
 description: "【路径模拟】写完 workflow/skill/方案后找卡点。走一遍、走查、自检"
 version: 2.7.10
-license: MIT
+license: CC BY-NC 4.0
 author: 彬少
 platforms: [linux, macos, windows]
 metadata:
